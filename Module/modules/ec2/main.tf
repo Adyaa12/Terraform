@@ -6,7 +6,7 @@ resource "aws_instance" "instance" {
     ami_id = var.ami_id
     instance_type = var.instance_type
 
-    User_data = <<-EOF
+    user_data = <<-EOF
     #!/bin/bash
     sudo apt install nginx -y
     sudo systemctl start nginx
