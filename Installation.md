@@ -1,5 +1,3 @@
-# Day 2
-
 ---
 
 ## 1. Install Terraform in a Linux System
