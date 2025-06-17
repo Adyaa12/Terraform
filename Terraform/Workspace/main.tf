@@ -19,5 +19,5 @@ locals {
         prod = "t2.small"
     }
 
-    instance_type = lookup (local.instance_type_map, terrafrom.workspace, "t2.micro")
+    instance_type = lookup (local.instance_type_map, terraform.workspace, "t2.micro")
 }
