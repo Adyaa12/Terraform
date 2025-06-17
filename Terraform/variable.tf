@@ -11,7 +11,7 @@ variable "ami" {
     description = "ami id for my ec2 instance"
 }
 variable "availability_zones" {
-    type = list[string]
+    type = list(string)
     description = "zone for my ec2 instance"
 }
 variable "vpc_cidr_block" {
