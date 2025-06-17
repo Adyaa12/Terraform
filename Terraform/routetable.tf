@@ -8,10 +8,6 @@ resource "aws_route_table" "rt" {
 
 resource "aws_internet_gateway" "igw" {
     vpc_id = aws_vpc.main.id
-
-    tags= {
-        name = igw
-    }
 }
 
 resource "aws_route_table_association" "rt_assoc1" {
