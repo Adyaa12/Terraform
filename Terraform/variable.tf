@@ -2,10 +2,6 @@ variable "region" {
     type = string
     description = "Region for my ec2 instance"
 }
-variable "vpc_id" {
-    type = string
-    description = "vpc for my ec2 instance"
-}
 variable "ami" {
     type = string
     description = "ami id for my ec2 instance"
