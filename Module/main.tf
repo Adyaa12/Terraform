@@ -18,7 +18,7 @@ module "subnet" {
 
 module "ec2" {
   source        = "./modules/ec2"
-  ami           = var.ami_id
+  ami_id           = var.ami_id
   instance_type = var.instance_type
   subnet_id     = module.subnet.subnet_id
   vpc_id        = module.vpc.vpc_id
