@@ -1,5 +1,5 @@
 
-variable "vpc_cidr" {
+variable "cidr_blocks" {
   description = "CIDR block for the VPC"
   type        = string
 }
