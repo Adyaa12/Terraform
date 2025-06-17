@@ -1,4 +1,4 @@
-ami_id = "ami-020cba7c55df1f615"
+ami = "ami-020cba7c55df1f615"
 aws_region = "us-east-1"
 subnet1_cidr = "10.0.1.0/24"
 subnet2_cidr = "10.0.2.0/24"
