@@ -13,7 +13,7 @@ resource "aws_instance" "main" {
 }
 
 locals {
-    instance_type_map {
+    instance_type_map = {
         dev = "t2.micro"
         stage = "t3.micro"
         prod = "t2.small"
